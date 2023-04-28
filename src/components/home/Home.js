@@ -23,7 +23,7 @@ export default Home;
 function Home(props) {
   return (
     <>
-    <Header/>
+   
  <Tours data={props.data} />
 
      
