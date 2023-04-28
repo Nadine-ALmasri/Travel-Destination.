@@ -14,7 +14,7 @@ function App() {
 <Routes>
 <Route path="/" element={<Home data={DataJson}/>}></Route> 
        
-        <Route path="/city/:id" element={<TourDetails />}></Route>
+        <Route path="/city/:id" element={<TourDetails/>}></Route>
  </Routes>
     
 
